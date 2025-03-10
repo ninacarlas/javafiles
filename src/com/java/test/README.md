@@ -20,16 +20,17 @@ returns the resulting string after the shift.
 # How to run
 
 1. Clone or download the repository containing the source code.
-2. Open the terminal or command line interface and navigate to the directory where the Java file (AMACoding.java) is saved.
+2. Open the terminal or command line interface and navigate to the directory where the Java file (ShiftString.java) is saved.
 3. Compile the Java file by compiling below command
- - javac com/java/test/AMACoding.java
+ - javac ShiftString.java
 4. Run the program
- - java com.java.test.ShiftString
+ - java ShiftString
 5. Enter inputs required
  - For input 1, enter a string consisting of letters (e.g., "abcdef" or "helloworld")
  - For input 2, enter a positive integer or number representing the positions to shift the characters (e.g., 3)
 6. Output: The program will output the transformed string after applying the shift. For example:
-
+	
+    ```bash
 	Input 1: abcdef
 	Input 2: 3
 	Output: defabc
@@ -43,17 +44,20 @@ returns the resulting string after the shift.
 # Code Explanation
 
 1. Main Method 
-	Accepts input for both input 1 and input 2. 
-	It handles input validation if user enters a string instead of a positive integer. 
-	It calls ShiftInput method to generate the result. 
-	It displays the result or error if any.
+ - Accepts input for both input 1 and input 2. 
+ - It handles input validation if user enters a string instead of a positive integer. 
+ - It calls ShiftInput method to generate the result. 
+ - It displays the result or error if any.
 2. ShiftInput Method 
-	Takes two arguments (a string input 1, and an integer input 2)
-	Ensures that input 1 consists of only letters and the input 2 is a positive integer
-	Performs the shift operation by splitting the string and rearranging the position of characters.
+ - Takes two arguments (a string input 1, and an integer input 2)
+ - Ensues that input 1 consists of only letters and the input 2 is a positive integer
+ - Performs the shift operation by splitting the string and rearranging the position of characters.
 
 # Additional notes
-If the input 2 exceeds the length of input 1, it wraps the shifted position back to the front. For example:
+If the input 2 exceeds the length of input 1, it wraps the shifted position back to the front. 
+For example:
+
+	```bash
 	Input 1: abcdef
 	Input 2: 10
 	Output:  efabcd
