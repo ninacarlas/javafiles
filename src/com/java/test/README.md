@@ -22,9 +22,11 @@ returns the resulting string after the shift.
 1. Clone or download the repository containing the source code.
 2. Open the terminal or command line interface and navigate to the directory where the Java file (ShiftString.java) is saved.
 3. Compile the Java file by compiling below command
- - javac ShiftString.java
+	```bash
+	javac ShiftString.java
 4. Run the program
- - java ShiftString
+	```bash
+	java ShiftString
 5. Enter inputs required
  - For input 1, enter a string consisting of letters (e.g., "abcdef" or "helloworld")
  - For input 2, enter a positive integer or number representing the positions to shift the characters (e.g., 3)
@@ -54,8 +56,7 @@ returns the resulting string after the shift.
  - Performs the shift operation by splitting the string and rearranging the position of characters.
 
 # Additional notes
-If the input 2 exceeds the length of input 1, it wraps the shifted position back to the front. 
-For example:
+1. If the input 2 exceeds the length of input 1, it wraps the shifted position back to the front. For example:
 
 	```bash
 	Input 1: abcdef
