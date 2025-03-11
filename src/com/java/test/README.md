@@ -26,7 +26,7 @@ returns the resulting string after the shift.
 	javac ShiftString.java
 4. Run the program
 	```bash
-	java ShiftString
+	java ShiftString.java
 5. Enter inputs required
  - For input 1, enter a string consisting of letters (e.g., "abcdef" or "helloworld")
  - For input 2, enter a positive integer or number representing the positions to shift the characters (e.g., 3)
